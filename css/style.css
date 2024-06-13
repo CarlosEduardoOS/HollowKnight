@@ -96,7 +96,7 @@ article {
 
 article#sobre {
     height: 70vh;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(94, 94, 94);
 }
 
 h1 {
@@ -109,8 +109,6 @@ h1 {
 section.conteudo {
     position: absolute;
     right: 0;
-    display: flex;
-    justify-content: end;
     width: 300px;
     background-color: black;
 }
