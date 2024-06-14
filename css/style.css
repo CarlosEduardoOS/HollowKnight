@@ -48,7 +48,7 @@ a.botao {
     text-decoration: none;
     margin-left: 10px;
     padding: 10px 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 5px;
     transition: .3s;
@@ -67,6 +67,10 @@ aside {
 img#Logo {
     display: block;
     max-width: 100%;
+}
+
+img {
+    border-radius: 5px;
 }
 
 aside > hr {
@@ -101,21 +105,33 @@ article#sobre {
     margin-top: 100px;
     
 }
-
-section.conteudo {
-    position: absolute;
-    right: 0;
-    width: 40vw;
+section {
+    width: auto;
     height: 70vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+section.conteudodir {
+    margin-right: 100px;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+section.conteudoesq {
+    position: absolute;
+    left: 50px;
+    width: auto;
 }
 
 h1 {
+    text-shadow: 0px 0px 40px white;
     display: block;
     font-family: HK, sans-serif;
     font-weight: lighter;
     color: white;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 section#img {
@@ -128,8 +144,21 @@ section#img {
 }
 
 section#img > img {
-
     height: 350px;
+    margin-left: 40px;
+    box-shadow: inset 0px 0px 10px white;
+}
+
+.imgdir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+}
+
+.imgdir > img {
+    width: 600px;
 }
 
 article#mapa {
